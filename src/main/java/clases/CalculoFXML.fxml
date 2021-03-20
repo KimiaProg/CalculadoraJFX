@@ -15,12 +15,13 @@
                <font>
                   <Font name="System Bold" size="19.0" />
                </font></Label>
-            <Label fx:id="label" layoutX="323.0" layoutY="160.0" prefHeight="16.0" prefWidth="85.0" />
             <TextField fx:id="num2" layoutX="385.0" layoutY="237.0" prefHeight="26.0" prefWidth="144.0" promptText="El segundo número:" />
-            <Label layoutX="241.0" layoutY="160.0" text="Resultado:">
+            <Label layoutX="225.0" layoutY="160.0" text="Resultado:">
                <font>
                   <Font name="System Bold Italic" size="13.0" />
                </font></Label>
+            <Label fx:id="labelError" layoutX="254.0" layoutY="209.0" prefHeight="16.0" prefWidth="266.0" />
+            <TextField fx:id="resulOp" layoutX="304.0" layoutY="155.0" prefHeight="26.0" prefWidth="174.0" />
          </children>
       </AnchorPane>
       <Button layoutX="97.0" layoutY="224.0" mnemonicParsing="false" onAction="#plus" text="+" />
