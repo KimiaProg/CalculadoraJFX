@@ -21,7 +21,7 @@
                   <Font name="System Bold Italic" size="13.0" />
                </font></Label>
             <Label fx:id="labelError" layoutX="254.0" layoutY="209.0" prefHeight="16.0" prefWidth="266.0" />
-            <TextField fx:id="resulOp" layoutX="304.0" layoutY="155.0" prefHeight="26.0" prefWidth="174.0" />
+            <TextField fx:id="resulOp" layoutX="304.0" layoutY="155.0" prefHeight="26.0" prefWidth="174.0" promptText="0.0" />
          </children>
       </AnchorPane>
       <Button layoutX="97.0" layoutY="224.0" mnemonicParsing="false" onAction="#plus" text="+" />
